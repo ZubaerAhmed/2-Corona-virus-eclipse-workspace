@@ -1,0 +1,12 @@
+
+
+<html>
+<body>
+	<jsp:include page="header.html"></jsp:include>
+	
+	Today's Date is:<%= new java.util.Date()  %>
+ 
+	<jsp:include page="footer.jsp"></jsp:include>
+</body>
+
+</html>

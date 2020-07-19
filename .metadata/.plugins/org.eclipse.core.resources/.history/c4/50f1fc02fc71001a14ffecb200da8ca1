@@ -1,0 +1,22 @@
+package virus;
+
+abstract class Color {
+	String red;
+	public void colorSet() {
+		System.out.println("color set");
+	}
+}
+//--------------------------------------------
+class Flower extends Color{
+	
+}
+//--------------------------------------------
+public class AbstractClass {
+
+	public static void main(String[] args) {
+		Flower f = new Flower();
+		f.colorSet();
+		System.out.println(f.red);
+	}
+
+}

@@ -1,0 +1,15 @@
+package virus;
+
+public class Experiment_1 {
+
+	public static void main(String[] args) {
+
+		Pen p = new Pen();
+		System.out.println("Before click: "+p.type);
+		p.click();
+		System.out.println("After click: "+p.type);
+
+		
+	}
+
+}

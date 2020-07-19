@@ -1,0 +1,12 @@
+
+<html>
+<body>
+
+	<h1>First project</h1>
+	<%= new String("Hello").toUpperCase() %>
+	
+
+	
+	
+</body>
+</html>

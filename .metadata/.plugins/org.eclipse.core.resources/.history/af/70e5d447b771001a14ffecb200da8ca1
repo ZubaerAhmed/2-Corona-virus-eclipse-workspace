@@ -1,0 +1,20 @@
+package virus;
+
+public class Enum {
+	
+	enum Color{
+		RED, GREEN, BLUE;
+	}
+
+	public static void main(String[] args) {
+		Color c = Color.BLUE;
+		
+		if(c == Color.BLUE) {
+			System.out.println("It is RED");
+		}
+		
+		
+
+	}
+
+}

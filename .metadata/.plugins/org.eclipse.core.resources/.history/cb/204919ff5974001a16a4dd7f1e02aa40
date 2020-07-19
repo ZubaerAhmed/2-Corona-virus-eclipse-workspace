@@ -1,0 +1,22 @@
+
+
+<html>
+<body>
+	<jsp:include page="header.html"></jsp:include>
+	
+	<h4 align="center">This is BODY: Student Form</h4>
+ 	
+ 	<form action="studentForm.jsp  " >
+ 	First Name: <input type="text" name="firstName" />
+ 	<br>
+ 	Last Name:  <input type="text" name="lastName" />
+ 
+ 	<br>
+ 	<input type="submit" name="submit">
+ </form>
+ 
+ 
+	<jsp:include page="footer.jsp"></jsp:include>
+</body>
+
+</html>

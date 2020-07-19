@@ -1,0 +1,14 @@
+package virus;
+
+public class Pen {
+
+	String type = "Gel";
+	static boolean clicked = false;
+	
+	public static void click() {
+		clicked = true;
+	}
+	
+	
+	
+}

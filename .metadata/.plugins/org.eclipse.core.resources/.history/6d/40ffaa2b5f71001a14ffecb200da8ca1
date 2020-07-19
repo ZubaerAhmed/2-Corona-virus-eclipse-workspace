@@ -1,0 +1,9 @@
+package virus;
+
+public class Constructor {
+
+	public static String color = "white";
+	public static String size = "Medium";
+	
+	
+}

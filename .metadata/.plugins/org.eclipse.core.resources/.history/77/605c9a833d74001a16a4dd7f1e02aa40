@@ -1,0 +1,12 @@
+<%-- <%@ page import="jspTutorial" --%>
+
+
+<html>
+<body>
+
+	Import class from java file.
+	<%= jspTutorial.importClassToJSP.makeLowerCase("USA-BANGLADESH") %>
+
+
+</body>
+</html>

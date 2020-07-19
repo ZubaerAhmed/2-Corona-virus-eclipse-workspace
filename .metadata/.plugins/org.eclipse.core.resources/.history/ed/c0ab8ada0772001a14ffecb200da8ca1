@@ -1,0 +1,27 @@
+package virus;
+
+class Student {
+	private String name;
+	//private int age;
+	Student(String name){
+		this.name = name;
+	}
+	
+//	public void setName(String name) {
+//		this.name = name;
+//	}
+	public String getName() {
+		return name;
+	}
+}
+
+public class Encapsulaton {
+
+	public static void main(String[] args) {
+		Student s = new Student("Zubaer");
+		System.out.println(s.getName());
+
+	}
+
+}
+ 

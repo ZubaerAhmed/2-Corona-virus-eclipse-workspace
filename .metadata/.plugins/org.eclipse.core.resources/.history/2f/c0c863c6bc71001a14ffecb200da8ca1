@@ -1,0 +1,21 @@
+package virus;
+
+public class KeyWordThis {
+
+	int a;
+	int b;
+	
+    //	no static
+	public void setData(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public static void main(String[] args) {
+		
+		KeyWordThis k = new KeyWordThis();
+		k.setData(3, 4);
+		System.out.println(k.a + " + " + k.b);
+	}
+
+}

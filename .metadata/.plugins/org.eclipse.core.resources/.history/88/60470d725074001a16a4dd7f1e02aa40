@@ -1,0 +1,5 @@
+
+<footer align="center">
+	Today's Date is:<%= new java.util.Date()  %>
+</footer>
+

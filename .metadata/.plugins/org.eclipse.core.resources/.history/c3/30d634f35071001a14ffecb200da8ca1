@@ -1,0 +1,16 @@
+package virus;
+
+public class Rcursion {
+
+	public static void main(String[] args) {
+
+		recursionMethod(5);
+	}
+	
+	public static void recursionMethod(int count) {
+		int count2 = 0;
+		
+		System.out.println(count);
+	}
+
+}

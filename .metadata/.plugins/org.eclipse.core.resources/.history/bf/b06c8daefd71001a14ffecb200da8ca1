@@ -1,0 +1,23 @@
+package virus;
+
+abstract class Color {
+	public void colorSet() {
+		System.out.println("Color class" );
+	}
+//abstract-no body, it has idea but don't know what to do
+	public abstract void colorGet();
+}
+//--------------------------------------------
+class Flower extends Color{
+	@Override
+	public void colorGet() {
+		System.out.println("Flower class");		
+	}	
+}
+//--------------------------------------------
+public class AbstractClass {
+	public static void main(String[] args) {
+		Flower f = new Flower();
+		f.colorSet();
+	}
+}

@@ -1,0 +1,16 @@
+
+<html>
+<body>
+
+	<h1>First project</h1>
+	<%= new String("Hello").toUpperCase() %>
+	
+	<%
+		for(int i=1; i<4; i++){
+			out.println(i);
+		}
+	%>
+	<!--  -->  
+	
+</body>
+</html>

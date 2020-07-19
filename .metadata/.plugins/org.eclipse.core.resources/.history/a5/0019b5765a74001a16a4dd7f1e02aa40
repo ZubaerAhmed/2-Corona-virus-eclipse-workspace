@@ -1,0 +1,16 @@
+
+<html>
+<head>
+	<title>Student confirmation title</title>
+</head>
+<body>
+
+	Student is confirmed: ${param.firstName } ${param.lastName }
+	
+
+
+
+
+</body>
+
+</html>
